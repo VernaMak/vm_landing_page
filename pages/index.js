@@ -83,10 +83,12 @@ export default function Home() {
       </div>
       <div className={styles.portrait_cnt} ref={portraitRef}>
           <div className={`${styles.portrait} ${portraitIsVisible ? styles.animatePortrait : ''}`}></div>
+         
           <div className={styles.p_cnt}>
+           
             <div className={styles.portrait_line}></div>
-            <p className={styles.portrait_p}>I am Verna Mai working as UI/UX & Graphic design & Motion Graphic designer based in Vancouver. I design and build unique digital products.I would be happy to implement your thinking into  <strong style={{fontSize: '26px', fontWeight: 'bold'}}> smooth Visual Design</strong> and
-            <strong style={{fontSize: '26px', fontWeight: 'bold'}}> Best UI  Experience.</strong>
+            <p className={styles.portrait_p}>I am <strong style={{fontSize: '26px', fontWeight: 'bold',color:'antiquewhite'}}> Verna Mai </strong>working as UI/UX & Graphic design & Motion Graphic designer based in Vancouver. I design and build unique digital products.I would be happy to implement your thinking into  <strong style={{fontSize: '26px', fontWeight: 'bold',color:'antiquewhite'}}> smooth Visual Design</strong> and
+            <strong style={{fontSize: '26px', fontWeight: 'bold',color:'antiquewhite'}}> Best UI  Experience.</strong>
             <br/>
             <br/>
           Feel free to mail me: vernamai9@gmail.com</p>
