@@ -10,13 +10,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 
-
 export default function Home() {
   const { ref: myRef, inView: myElementIsVisible } = useInView();
   const { ref: rocketRef, inView: rockettIsVisible } = useInView();
   const { ref: titleRef, inView: titletIsVisible } = useInView();
   const { ref: portraitRef, inView: portraitIsVisible } = useInView();
-  const { ref: projectRef, inView: projectIsVisible } = useInView();
+  const { ref: title2Ref, inView: title2IsVisible } = useInView();
 
   return (
     <>
@@ -59,9 +58,9 @@ export default function Home() {
         </div>
 
       </div>
-      <div className={styles.sec2_cnt} ref={projectRef}>
+      <div className={styles.project_cnt} ref={title2Ref}>
       <div className={styles.sec3_logo}></div>
-      <span className={`${styles.project_h2 } ${projectIsVisible ? styles.animateProject : ''}`}>projects</span>
+      <span className={`${styles.title2_h2 } ${title2IsVisible ? styles.animatetitle2 : ''}`}>Projects</span>
       </div>
 
       <div  className={styles.sec2_cnt} >
