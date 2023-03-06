@@ -103,7 +103,7 @@
 
 .video {
   grid-template-columns: 2;
-  width: 1000px;
+  width: 850px;
   height: auto;
   padding-right: 200px;
   
@@ -119,8 +119,8 @@
   background-image: url('../public/h1.png') ;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 500px;
-  height: 800px;
+  width: 400px;
+  height: 700px;
   margin-left: 250px;
   margin-top: 50px;
   grid-template-columns: 1;
